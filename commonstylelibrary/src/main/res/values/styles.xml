@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--无标题栏主题-->
+    <style name="AppTheme.Splash" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <!--<item name="android:windowBackground">@mipmap/launcher_background</item>-->
+    </style>
+
+    <!--通用按钮-->
+    <style name="Common_Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/common_button_selector</item>
+    </style>
+
+    <!--通用分割线-->
+    <style name="Common_CutLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorCutLine</item>
+    </style>
+
+    <!--圆角按钮-->
+    <style name="Corner_Button">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/corner_button_selector</item>
+    </style>
+
+    <!--提示框样式-->
+    <style name="Theme_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+
+</resources>
