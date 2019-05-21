@@ -8,8 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.autoai.commonstylelibrary.view.dialog.CommonDialog;
 import com.autoai.commonstylelibrary.view.dialog.LoadingDialog;
+
 
 public class MainActivity extends FragmentActivity {
 

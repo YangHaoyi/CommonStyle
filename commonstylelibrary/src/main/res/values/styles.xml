@@ -15,6 +15,13 @@
         <item name="android:background">@drawable/common_button_selector</item>
     </style>
 
+    <!--通用EditText-->
+    <style name="Common_EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
     <!--通用分割线-->
     <style name="Common_CutLine">
         <item name="android:layout_width">match_parent</item>
