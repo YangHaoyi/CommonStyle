@@ -12,10 +12,12 @@
         style="@style/Common_Button"
         android:text="开始导航"/>
 
+    <View
+        style="@style/Common_CutLine"/>
+
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@null"/>
+        style="@style/Common_EditText"
+        android:hint="1234"/>
 
 
 
