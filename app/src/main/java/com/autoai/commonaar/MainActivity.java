@@ -1,5 +1,6 @@
 package com.autoai.commonaar;
 
+import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.autoai.commonstylelibrary.view.dialog.CommonDialog;
+import com.autoai.commonstylelibrary.view.dialog.LoadingDialog;
 
 public class MainActivity extends FragmentActivity {
 
@@ -19,8 +21,13 @@ public class MainActivity extends FragmentActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new CommonDialog().setNotice("获取Library")
-                        .show(getSupportFragmentManager(), "Common");
+                LoadingDialog.getInstance().show(getSupportFragmentManager(),"Loading");
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        LoadingDialog.getInstance().dismiss();
+                    }
+                },1000);
             }
         });
 
