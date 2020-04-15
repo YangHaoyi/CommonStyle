@@ -15,6 +15,16 @@
         <item name="android:background">@drawable/common_button_selector</item>
     </style>
 
+    <!--Item按钮-->
+    <style name="Item_Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_button_selector</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
     <!--通用EditText-->
     <style name="Common_EditText">
         <item name="android:layout_width">match_parent</item>
@@ -27,6 +37,14 @@
     <style name="Common_CutLine">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorCutLine</item>
+    </style>
+
+    <style name="Item_CutLine">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
         <item name="android:background">@color/colorCutLine</item>
     </style>
 
@@ -43,6 +61,18 @@
     <style name="Theme_Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="Title_Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Item_Linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:orientation">horizontal</item>
     </style>
 
 
